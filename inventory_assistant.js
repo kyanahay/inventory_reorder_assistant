@@ -21,10 +21,6 @@ const estimatedReorderCost = reorderQuantity * unitCost;
 
 const reorderNow = currentStock <= reorderLevel || weeksOfCover < supplierLeadTimeWeeks;
 
-const breakEvenUnits = isProfitablePerUnit
-  ? Math.ceil(fixedMonthlyCosts / profitPerUnit)
-  : Infinity;
-
 // Print to Console 
 
 console.log("Inventory Assistant");
