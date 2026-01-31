@@ -25,8 +25,8 @@ const reorderNow = currentStock <= reorderLevel || weeksOfCover < supplierLeadTi
 
 console.log("Inventory Assistant");
 
-console.log("Item Name:                   " + itemName);
-console.log("Weeks of Cover:              " + weeksOfCover.toFixed(2));
-console.log("Reorder Now?                 " + reorderNow);
-console.log("Recommended Reorder Quantity:" + reorderQuantity);
-console.log("Estimated Reorder Cost:      $" + estimatedReorderCost.toFixed(2));
+console.log("Item Name:                      " + itemName);
+console.log("Weeks of Cover:                 " + weeksOfCover.toFixed(2));
+console.log("Reorder Now?                    " + reorderNow);
+console.log("Recommended Reorder Quantity:   " + reorderQuantity);
+console.log("Estimated Reorder Cost:         $" + estimatedReorderCost.toFixed(2));
